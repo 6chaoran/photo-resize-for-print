@@ -1,0 +1,16 @@
+[project]
+name = "photo-print-resize"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pillow-heif>=1.1.0",
+    "tqdm>=4.67.1",
+    "wand>=0.6.13",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.30.0",
+]
